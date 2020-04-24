@@ -1,3 +1,40 @@
-h1 {
-    color: pink;
+h2 {
+    color: #64ccaf;
+    margin-bottom: 1rem;
+}
+
+.header {
+    background-color:#64ccaf;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 3rem;
+}
+
+.btn-teal {
+    background-color: #64ccaf;
+    color: white;
+}
+
+.search {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted #64ccaf;
+}
+
+.center {
+    text-align: center;
+}
+
+.image {
+    height: 30rem;
+    width: 20rem;
+}
+
+.movie {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
