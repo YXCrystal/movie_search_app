@@ -1,0 +1,17 @@
+<%- include ("partials/header") %>
+    <%- include ("partials/form") %>
+    <div class="center">
+        <% if (movies) { %>
+            <div class="row">
+                <% movies.forEach(function(movie) { %>
+                    <div class="col movie">
+                        <h2> <%= movie.Title %> (<%= movie.Year %>) </h2>
+                        <img class="image" src=<%= movie.Poster %>>
+                    </div>
+                <% }) %>
+            </div> 
+        <% } else { %>
+            <h1> No results for "<%= query %>" </h1>
+        <% } %>
+    </div>
+<%- include ("partials/footer") %>
